@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+  }
+
+  .navbar {                                                   /* Full width nav-bar outline. */
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    padding: 0 20px;
+  }
+
+  .navbar .nav {                                             /* Centered nav-bar container. */
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav .left{                                               /* nav-bar left container. */
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+
+  .location-div .type{                                      /* Location address type ex- home , office etc  */
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+
+  .location-div .location{                                  /* Location detailed address */
+    font-size: 14px;
+    margin-left: 8px;
+    overflow: hidden;
+    max-width: 300px;
+  }
+
+  .location-div .arrow-down-icon{                         /* Location address drop-down icon */
+    color: #fc8019;
+  }
+
+  .nav .right{                                             /* nav-bar left container. */
+    display: flex;
+  }
+
+  .nav .items{                                          /* nav-bar item */
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .right .items li {                                    /* nav-bar right list-items */
+    margin-right: 28px;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+  }
+
+  .right .items .nav-item {                          /* nav-bar right indiviual item style */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .right .items .nav-item a {                               /* nav-bar right anchor style */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+ .right .nav-item a:hover {                                 /* nav-bar right anchor hover style */
+    color: #fc8019;
+  }
+ 
+  .nav-item a span {                                      /* nav-bar right span text*/
+    padding-left: 11px;
+  }
+
+  .banner {                                                     /* Banner */
+    background-color: #171a29;
+    position: relative;
+    top: 80px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner .banner-div {                                  /* Banner centered container. */
+     max-width: 1200px;
+     min-width: 1200px;
+     margin: 0 auto;
+    
+     display: flex;
+     align-self: center;
+     justify-content: space-between;
+  }
+
+
+
+  .restaurant-container{                               /* Resturant Container*/
+    max-width: 1200px;
+    min-width: 1200px;
+    padding : 20px 0px;
+    margin : 0 auto;
+    top: 80px;
+    position: relative;
+    display: flex;
+    flex-flow:column wrap;
+  }
+
+  .restaurant-navbar{                                         /* Resturant container navbar container*/
+      display: flex;
+      height: 72px;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 1.5px lightgrey;
+      flex-grow: 1;
+  }
+
+  .restaurant-navbar .resturant-filter-items{                       /* Resturant container navbar filter container*/
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 42px;
+  }
+
+  .restaurant-navbar .restaurant-filter li{                     /* restuarnt filter container items*/
+    list-style: none;
+    color:#3d4152;
+  }
+
+  .restaurant-count p{                                              /* Resturant count syling */
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+
+  .restaurants-details{                                             /* Resturant deatils container*/
+    display: flex;
+    flex-flow : row wrap;
+  }
